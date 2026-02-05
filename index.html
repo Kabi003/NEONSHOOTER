@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neon Shooter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="game-container"></div>
+
+  <div id="ui-overlay">
+    <div id="crosshair"></div>
+
+    <div id="stats">
+      <div class="stat-item">
+        <span class="label">SCORE</span>
+        <span class="value" id="score">0</span>
+      </div>
+      <div class="stat-item">
+        <span class="label">AMMO</span>
+        <span class="value">∞</span>
+      </div>
+    </div>
+
+    <div id="instructions">
+      <h1>NEON SHOOTER</h1>
+      <p>Click to Start</p>
+      <p class="sub">WASD to Move • Click to Shoot</p>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
